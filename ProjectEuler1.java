@@ -1,8 +1,10 @@
+package projectEuler;
 
 public class ProjectEuler1 {
 public static void main(String[] args) {
+    System.out.println("hola johan");
     int i, res3 = 0, res5=0,res;
-    System.out.println(9%3==0);
+    
     for(i=1; i<1000;i++){
         // System.out.println(i);
         if (i%3==0) {
